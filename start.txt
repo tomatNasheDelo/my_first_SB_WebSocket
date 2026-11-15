@@ -1,0 +1,17 @@
+# My first Spring Boot WebSocket chat
+#
+# What is inside:
+# - Spring Boot WebSocket + STOMP
+# - /ws endpoint with SockJS fallback
+# - simple in-memory broadcast to all subscribers
+# - browser page with username and message input
+#
+# This is the first step of the learning path. No DB, no security, no user accounts.
+#
+# Quick start:
+#   ./gradlew bootRun
+#
+# Open in browser:
+#   http://localhost:8080/
+#
+# Then open two browser tabs or windows. Write messages in one and see them in the other.
